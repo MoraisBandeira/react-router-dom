@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default () =>{
+export default props => {
                 
                 return (
-                <h1>Pesquisa</h1>
+                <h1>{props.match.params.id + " Ola mundo"}</h1>
                 );
             
 }
